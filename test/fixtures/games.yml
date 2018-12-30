@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: MyString
+  is_finished: false
+  start: 2018-12-22 18:27:44
+
+two:
+  status: MyString
+  is_finished: false
+  start: 2018-12-22 18:27:44

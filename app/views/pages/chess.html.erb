@@ -1,0 +1,73 @@
+<%content_for(:title){"Game Page"} %>
+<div style="border:5pt solid black;">
+  <div class="bg" style="border:2pt solid black;">
+    <ul>
+      <a href="http://localhost:3000/champions"> <li class="li1">Champions</li></a>
+      <a href="http://localhost:3000/chess"> <li class="li1">Game</li></a>
+      <a href="http://localhost:3000/rules"> <li class="li1">Rules</li></a>
+
+    </ul>
+  </div>
+
+<div><h1 style="padding: 0 50px" title="годы чемпионств: 1894 -1921">Эмануэль Ласкер против Пользователь</h1>
+  <div class="block">
+    <div class="board">
+      <table>
+        <tr >
+          <th style="border:2pt solid black;">
+            <table>
+              <tr>
+                <td>&#9820;</td>
+                <td>&#9822;</td>
+                <td>&#9821;</td>
+                <td>&#9819;</td>
+                <td>&#9818;</td>
+                <td>&#9821;</td>
+                <td>&#9822;</td>
+                <td>&#9820;</td>
+              </tr>
+              <tr>
+                <% 8.times do %>
+                  <td>&#9823;</td>
+                <% end %>
+              </tr>
+              <% 4.times do %>
+                <tr>
+                  <% 8.times do %>
+                    <td></td>
+                  <% end %>
+                </tr>
+              <% end %>
+              <tr>
+                <% 8.times do %>
+                  <td>&#9817;</td>
+                <% end %>
+              </tr>
+              <tr>
+                <td>&#9814;</td>
+                <td>&#9816;</td>
+                <td>&#9815;</td>
+                <td>&#9813;</td>
+                <td>&#9812;</td>
+                <td>&#9815;</td>
+                <td>&#9816;</td>
+                <td>&#9814;</td>
+              </tr>
+            </table>
+          </th>
+          <th style="border:2pt solid black;">
+
+            <h1 title="годы чемпионств: 1886 – 1894">Вильгельм Стейниц</h1>
+            <h1 title="годы чемпионств:1948 – 1957, 1958 – 1960, 1961—1963">Михаил Ботвинник</h1>
+            <h1 title="годы чемпионств:2007 — 2013">Вишванатан Ананд</h1>
+            <h1 title="годы чемпионств:1975—1985">Анатолий Карпов</h1>
+          </th>
+        </tr>
+
+      </table>
+    </div>
+
+
+  </div>
+</div>
+</div>
