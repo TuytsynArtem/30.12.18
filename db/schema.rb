@@ -10,25 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_29_143443) do
+ActiveRecord::Schema.define(version: 2019_01_12_154202) do
 
-  create_table "games", force: :cascade do |t|
-    t.string "status"
-    t.boolean "is_finished"
-    t.time "start"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "players", force: :cascade do |t|
+  create_table "champions", force: :cascade do |t|
     t.string "name"
-    t.string "surename"
-    t.date "born_date"
-    t.date "death_date"
-    t.string "champion_date"
+    t.string "lastname"
+    t.integer "birth_year"
+    t.integer "death_year"
     t.string "photo_name"
+    t.integer "champs_year"
+    t.string "champf_year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
 
 end
